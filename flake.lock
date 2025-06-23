@@ -431,11 +431,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750683736,
-        "narHash": "sha256-4+eca0qO87oG8LX3e4OFCZm4OzokKGyd29gTs8H/RW0=",
+        "lastModified": 1750718900,
+        "narHash": "sha256-6BB+nabVk3LtPEF4kDeRW9elRmibfucta1HGDActvF8=",
         "owner": "tukanoidd",
         "repo": "nushell_plugins",
-        "rev": "7c8eb29aa31387d550af4e11bcc139172802e382",
+        "rev": "7e313d9bb3e42ac378ae59d99c573f669534b06c",
         "type": "github"
       },
       "original": {
