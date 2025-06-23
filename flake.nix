@@ -147,6 +147,9 @@
           default = crateOutputs.packages.release;
           nushell = config.packages.default;
         };
+        apps = {
+          nu.program = "${config.packages.nushell}/bin/nu-cli";
+        };
       };
     })
     // {
