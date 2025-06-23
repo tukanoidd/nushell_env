@@ -148,7 +148,7 @@
           nushell = config.packages.default;
         };
         apps = {
-          nu.program = "${config.packages.nushell}/bin/nu-cli";
+          nu.program = config.packages.nushell;
         };
       };
     })
