@@ -150,7 +150,7 @@
       };
     })
     // {
-      plugins = inputs.plugins.outputs;
-      scripts = inputs.scripts.outputs;
+      plugins = inputs.plugins;
+      scripts = inputs.scripts;
     };
 }
