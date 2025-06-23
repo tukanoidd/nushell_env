@@ -48,7 +48,7 @@
         config,
         ...
       }: let
-        crateOutputs = config.nci.outputs.nu-cli;
+        crateOutputs = config.nci.outputs.nu;
       in {
         nci = {
           projects.nushell = {
@@ -56,7 +56,7 @@
           };
 
           crates = {
-            "nu-cli" = {
+            "nu" = {
               drvConfig = {
                 mkDerivation = with pkgs; {
                   nativeBuildInputs = [pkg-config python3];
@@ -105,6 +105,7 @@
                 };
               };
             };
+            "nu-cli" = {};
             "nu-engine" = {};
             "nu-parser" = {};
             "nu-system" = {};
@@ -146,9 +147,6 @@
         packages = {
           default = crateOutputs.packages.release;
           nushell = config.packages.default;
-        };
-        apps = {
-          nu.program = config.packages.nushell;
         };
       };
     })
