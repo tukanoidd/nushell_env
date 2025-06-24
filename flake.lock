@@ -525,11 +525,11 @@
         "nutest": "nutest"
       },
       "locked": {
-        "lastModified": 1750748644,
-        "narHash": "sha256-6LzAvrM53jaP1dJS1k3PpGoby+0qQZsdoWgSlwvDZ7w=",
+        "lastModified": 1750749021,
+        "narHash": "sha256-HIwvaa5z1qVqu77h13e57WAYhuDlSGen4XufC+NpWTY=",
         "owner": "tukanoidd",
         "repo": "nushell_scripts",
-        "rev": "ef8fb97276eb86fd19b765fc5b2645dd0bd5a62e",
+        "rev": "1167d17a9bdbb12cbce12fcf7884041670848494",
         "type": "github"
       },
       "original": {
