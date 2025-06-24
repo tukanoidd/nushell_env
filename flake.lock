@@ -482,11 +482,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750763796,
-        "narHash": "sha256-Zhs7pzYwxt/qbp5WErwjje0cmrmD5L8mHpg98xT+K3A=",
+        "lastModified": 1750763876,
+        "narHash": "sha256-uajvJmWnRWDe1EXwHw7fNF9mm95bQtrfh0+89xJk8ro=",
         "owner": "tukanoidd",
         "repo": "nushell_plugins",
-        "rev": "9ecaff20dfa89ac48c0a306aea29f4b0089235d5",
+        "rev": "378138ae2cba9b2e188838805067fc6cd96b7f7f",
         "type": "github"
       },
       "original": {
