@@ -163,22 +163,6 @@
         "type": "github"
       }
     },
-    "nu_plugin_bexpand": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1749702721,
-        "narHash": "sha256-waSl1DWtUeMda7nH1gY5tq2o/edjcfkegHpT7Zb4ivc=",
-        "ref": "refs/heads/main",
-        "rev": "1ba37ee402dbcc2172d588b5ddc7c287fcebc38a",
-        "revCount": 44,
-        "type": "git",
-        "url": "https://forge.axfive.net/Taylor/nu-plugin-bexpand"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://forge.axfive.net/Taylor/nu-plugin-bexpand"
-      }
-    },
     "nu_plugin_clipboard": {
       "flake": false,
       "locked": {
@@ -464,7 +448,6 @@
           "nixpkgs"
         ],
         "nu_plugin_audio_hook": "nu_plugin_audio_hook",
-        "nu_plugin_bexpand": "nu_plugin_bexpand",
         "nu_plugin_clipboard": "nu_plugin_clipboard",
         "nu_plugin_desktop_notifications": "nu_plugin_desktop_notifications",
         "nu_plugin_emoji": "nu_plugin_emoji",
@@ -482,11 +465,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750763876,
-        "narHash": "sha256-uajvJmWnRWDe1EXwHw7fNF9mm95bQtrfh0+89xJk8ro=",
+        "lastModified": 1750765019,
+        "narHash": "sha256-fiEqxV1UUuY/qYCMZNMvRWBC6KRNIpnU7r1osvyIG7o=",
         "owner": "tukanoidd",
         "repo": "nushell_plugins",
-        "rev": "378138ae2cba9b2e188838805067fc6cd96b7f7f",
+        "rev": "22c44c185e24903e60b441f773eb9497beeccc41",
         "type": "github"
       },
       "original": {
