@@ -57,6 +57,11 @@
 
           crates = {
             "nu" = {
+              profiles = {
+                debug.features = ["full"];
+                release.features = ["full"];
+              };
+
               drvConfig = {
                 mkDerivation = with pkgs; {
                   nativeBuildInputs = [pkg-config python3];
